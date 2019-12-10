@@ -188,7 +188,7 @@
 
   .title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 32px;
     margin-bottom: 15px;
     text-transform: uppercase;
     a {
@@ -345,6 +345,12 @@
     }
   }
 }
+/* store Section
+--------------------------------*/
+#store {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
 
 /* Team Section
 --------------------------------*/
@@ -502,4 +508,5 @@
       }
     }
   }
+}
 }
