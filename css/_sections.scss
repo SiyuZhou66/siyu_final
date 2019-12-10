@@ -352,6 +352,73 @@
   background-size: cover;
   padding: 80px 0 60px 0;
 
+  .box {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid lighten($text-color, 50%);
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+  }
+
+  .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: $accent-color;
+
+    a {
+      display: inline-block;
+    }
+
+    i {
+      color: #fff;
+      font-size: 24px;
+    }
+
+  }
+
+  .box:hover .icon {
+    background: #fff;
+
+    border: 2px solid $accent-color;
+    i {
+      color: $accent-color;
+    }
+
+    a {
+      color: $accent-color;
+    }
+
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    a {
+      color: #111;
+    }
+
+  }
+
+  .description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
 /* Team Section
 --------------------------------*/
 #team {
@@ -508,5 +575,4 @@
       }
     }
   }
-}
 }

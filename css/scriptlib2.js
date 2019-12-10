@@ -1,4 +1,4 @@
-c3.generate$(document).ready(function(){
+$(document).ready(function(){
 
     $("button#hide_h2").click(function() {
         $("h2").hide(500);
@@ -15,7 +15,7 @@ c3.generate$(document).ready(function(){
         $x.empty();
     });
 
-    
+  
 
      $("button#get_data2").click(function() {
       var items = [];
